@@ -7,16 +7,20 @@ http://www.w3.org/TR/CSP2/#directive-script-src
 
 
 ```csharp
-  // Startup.cs
-	// https://vcsjones.com/2014/12/17/content-security-policy-nonces-in-asp-net-and-owin/	
+  
+// Startup.cs
+// https://vcsjones.com/2014/12/17/content-security-policy-nonces-in-asp-net-and-owin/	
 	
-	using Microsoft.Owin;
-	using Owin;
-	using System;
-	using System.Security.Cryptography;
-	using System.Web;
-	using System.Web.Mvc;
-		
+	
+using Microsoft.Owin;
+using Owin;
+using System;
+using System.Security.Cryptography;
+using System.Web;
+using System.Web.Mvc;
+
+// ...
+
     public partial class Startup
     {
         public void Configuration(IAppBuilder app)
