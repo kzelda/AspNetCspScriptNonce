@@ -1,5 +1,3 @@
-namespace RadicalResearch.Web
-{
     using System;
     using System.Globalization;
     using System.Security.Cryptography;
@@ -50,4 +48,3 @@ namespace RadicalResearch.Web
             return Convert.ToBase64String(bytes);
         }
     }
-}
