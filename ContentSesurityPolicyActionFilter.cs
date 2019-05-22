@@ -1,7 +1,5 @@
-namespace RadicalResearch.Web.Mvc
-{
-    using System.Globalization;
-    using System.Web.Mvc;
+using System.Globalization;
+using System.Web.Mvc;
 
     public class ContentSesurityPolicyActionFilter : IActionFilter
     {
@@ -15,4 +13,3 @@ namespace RadicalResearch.Web.Mvc
         {
         }
     }
-}
