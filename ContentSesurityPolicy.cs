@@ -10,7 +10,7 @@ namespace RadicalResearch.Web
     {
         private const string defaultScriptTagFormatPattern = "<script type=\"text/javascript\" src=\"{{0}}\" nonce=\"{0}\"></script>";
 
-        private const string scriptNonceHttpContextItemsKey = "__ContentSesurityPolicy_ScriptNonce";
+        private const string scriptNonceHttpContextItemsKey = "ScriptNonce";
 
         private static readonly RNGCryptoServiceProvider _RngCryptoServiceProvider = new RNGCryptoServiceProvider();
 		
